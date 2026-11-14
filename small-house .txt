@@ -1,0 +1,36 @@
+# Minor Project 1 – Small House (Plan, Elevations, Section)
+AutoCAD Minor Project 1 · 
+
+## Files
+| File | Description |
+|---|---|
+| `small-house.dxf` | Drawing in DXF (R2010, all 3 sheets side by side) – opens in AutoCAD, LibreCAD, DraftSight, etc. |
+| `small-house.pdf` | Print-ready 3-sheet A3-landscape PDF |
+| `small-house-sheet1/2/3-screenshot.png` | Screenshots of each sheet |
+
+## Sheets
+1. Floor plan + door/window schedule – 1:50
+2. Front, rear, left, right elevations – 1:100
+3. Section A-A – 1:50
+
+## Key data
+- Built-up area 43.20 sq.m · Verandah 9.00 sq.m · Carpet area 35.7 sq.m
+- External walls 230 mm, internal walls 115 mm brick
+- FFL +0.300, clear height 3000, ridge +5.250, roof slope 30°
+- Foundation: 150 PCC + 300 RCC footing, 1.2 m below GL
+
+## How to open
+Open the `.dxf` in AutoCAD, set units to millimetres. Sheets are placed left-to-right at
+paper size (1 unit = 1 mm of paper); use `ZOOM EXTENTS`. Layers are named by type and colour
+(`LINE_*`, `TEXT_*`, `RECT_*`, `SHEET_*`).
+
+## Notes
+The DXF was generated from the vector content of the PDF, so it matches the PDF exactly, but
+walls and dimensions are plain lines/text rather than native AutoCAD DIMENSION/HATCH objects.
+
+## DWG
+A native `.dwg` could not be generated in this environment. To get one: open the `.dxf` in AutoCAD, then `SAVEAS` -> AutoCAD Drawing (*.dwg).
+
+## Author
+Name : KAUSIK T 
+Course : AUTOCAD 
